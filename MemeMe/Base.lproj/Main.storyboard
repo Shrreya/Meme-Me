@@ -93,6 +93,7 @@
                         <outlet property="imagePickerView" destination="0UL-9c-ddF" id="CQg-Ne-dEE"/>
                         <outlet property="messageLabel" destination="MRp-Ni-VMa" id="KRs-54-Meg"/>
                         <outlet property="mySelectedImage" destination="0UL-9c-ddF" id="vrz-Wb-f9k"/>
+                        <outlet property="navigationBar" destination="tnA-aU-1HH" id="LTb-Jf-dQS"/>
                         <outlet property="topText" destination="Cl8-Y6-eNa" id="P7r-Tw-0b3"/>
                     </connections>
                 </viewController>

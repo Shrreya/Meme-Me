@@ -17,6 +17,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var bottomText: UITextField!
     @IBOutlet weak var bottomToolbar: UIToolbar!
     @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var navigationBar: UINavigationBar!
     
     @IBAction func shareMeMe(_ sender: AnyObject) {
         //Create the MeMe and store it in the global Array of MeMe's
@@ -172,7 +173,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func generateMemedImage() -> UIImage {
         //hide the navigationitems before taking a "snapshot"
         bottomToolbar.isHidden = true
-        //navigationBar.hidden = true
+        navigationBar.isHidden = true
     
         // Render view to an image
         UIGraphicsBeginImageContext(self.view.frame.size)
@@ -184,7 +185,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
         //"snapshot" taken, time to bring back the navigationitems
         bottomToolbar.isHidden = false
-        //navigationBar.hidden = false
+        navigationBar.isHidden = false
             
         return memedImage
     }
