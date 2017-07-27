@@ -1,4 +1,4 @@
-# Meme-Me
+# Meme Me
 This app was built with the help of an online course on Udacity, [UIKit Fundamentals](https://in.udacity.com/course/uikit-fundamentals--ud788).</br></br>
 
 User can select an existing photo from their album or capture a new photo with the camera and add meme text on top of it.</br></br>
