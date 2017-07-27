@@ -1,6 +1,5 @@
 # Meme-Me
-iOS app to meme-ify a photo and share it on social channels!</br></br>
-User can select an existing photo from their album or capture a new photo with the camera and add meme text on top of it.</br></br>
+This app was built with the help of an online course on Udacity, [UIKit Fundamentals](https://in.udacity.com/course/uikit-fundamentals--ud788). The app allows users to select an existing photo from their album or capture a new photo with the camera and add meme text on top of it.</br></br>
 <img src="https://github.com/Shrreya/Meme-Me/blob/master/Screenshots/1.png" width="288" height="512" />
 <img src="https://github.com/Shrreya/Meme-Me/blob/master/Screenshots/2.png" width="288" height="512" />
 <img src="https://github.com/Shrreya/Meme-Me/blob/master/Screenshots/3.png" width="288" height="512" />
